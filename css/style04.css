@@ -22,17 +22,19 @@ article {
   padding: 10px;
   margin: 10px;
   background: aqua;
-  flex: 1 200px;
 }
 
 /* ----- Add your flexbox CSS below here ----- */
 
-article:nth-of-type(3){
-  flex: 2 200px;
-}
-
 section {
   display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+}
+
+article {
+  flex: 200px;
 }
 
 #hoge1 {

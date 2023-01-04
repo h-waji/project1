@@ -1,5 +1,6 @@
 html {
-  font-family: cursive, sans-serif;
+  /* font-family: sans-serif; */
+  font-family: cursive;
 }
 
 body {
@@ -28,13 +29,9 @@ article {
 
 section {
   display: flex;
-  /* flex-direction: row;
-  flex-wrap: wrap; */
-  flex-flow: row wrap;
-}
-
-article {
-  flex: 200px;
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  flex-direction:column-reverse;
 }
 
 #hoge1 {
