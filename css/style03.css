@@ -1,0 +1,64 @@
+html {
+  font-family: cursive, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: purple;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+
+/* ----- Add your flexbox CSS below here ----- */
+
+section {
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+}
+
+article {
+  flex: 200px;
+}
+
+#hoge1 {
+  font-family: cursive;
+  font-size: x-large;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  /* ブロック要素を中央ぞろえ */
+  margin: 0 auto;
+}
+
+p {
+  background-color: aquamarine;
+}
+
+/* 疑似クラス */
+p:hover {
+  background-color: yellow;
+}
+
+small {
+  border: solid 1px greenyellow;
+  /* インライン要素の幅指定 */
+  display: inline-block;
+  width: 200px;
+}
