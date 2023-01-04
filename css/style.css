@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+span {
+  border: blue 1px solid;
+  display: block;
+}
+
+.div1 {
+  border: 2px black solid;
+  margin: 10px;
+}
+
+.div2 {
+  border: solid 2px red;
+  padding: 10px;
+}
+
+#hoge1 {
+  font-family: cursive;
+  font-size: x-large;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  /* ブロック要素を中央ぞろえ */
+  margin: 0 auto;
+}
+
+p {
+  background-color: aquamarine;
+}
+
+/* 疑似クラス */
+p:hover {
+  background-color: yellow;
+}
+
+small {
+  border: solid 1px greenyellow;
+  /* インライン要素の幅指定 */
+  display: inline-block;
+  width: 200px;
+}
