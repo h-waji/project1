@@ -50,4 +50,7 @@ div {
   flex-direction: column;
 }
 
+.textarea {
+  width: 98%;
+}
 
