@@ -32,15 +32,22 @@ div {
 
 .flex-ctr {
   display: flex;
-  flex-direction: column;
 }
 
 .flex-item {
-  flex-direction: row;
-  flex: 200px;
+  flex: 1;
 }
 
 .flex-item2 {
-  flex-direction: column;
-  flex: 50px;
+  flex: 2;
 }
+
+.flex-item3 {
+  flex: 3;
+}
+
+.flex-dir-col {
+  flex-direction: column;
+}
+
+
