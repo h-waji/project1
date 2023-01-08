@@ -1,0 +1,46 @@
+body {
+  font-family: cursive;
+}
+
+p {
+  border: solid 1px blue;
+  padding: 5px;
+}
+
+div {
+  border: solid 1px gray;
+  padding: 5px;
+}
+
+.div-green {
+  border: solid 1px green;
+}
+
+.div-yellow {
+  border: solid 1px yellow;
+}
+
+.div-red {
+  border: solid 1px red;
+}
+
+.align-center {
+  text-align: center;
+}
+
+
+
+.flex-ctr {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item {
+  flex-direction: row;
+  flex: 200px;
+}
+
+.flex-item2 {
+  flex-direction: column;
+  flex: 50px;
+}
